@@ -17,6 +17,7 @@
 		197C21181C6686EF00BCCAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197C21161C6686EF00BCCAE8 /* LaunchScreen.storyboard */; };
 		3410A0BF2257FBE7003406D7 /* GoodAsOldPhonesUITest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410A0BE2257FBE7003406D7 /* GoodAsOldPhonesUITest1.swift */; };
 		3410A0C82257FC27003406D7 /* firstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410A0C72257FC27003406D7 /* firstPage.swift */; };
+		349A87CD2264F41F00A90CCE /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A87CC2264F41F00A90CCE /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3410A0BE2257FBE7003406D7 /* GoodAsOldPhonesUITest1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAsOldPhonesUITest1.swift; sourceTree = "<group>"; };
 		3410A0C02257FBE7003406D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3410A0C72257FC27003406D7 /* firstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPage.swift; sourceTree = "<group>"; };
+		349A87CC2264F41F00A90CCE /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		3410A0C62257FC00003406D7 /* pages */ = {
 			isa = PBXGroup;
 			children = (
+				349A87CC2264F41F00A90CCE /* Page.swift */,
 				3410A0C72257FC27003406D7 /* firstPage.swift */,
 			);
 			path = pages;
@@ -234,6 +237,7 @@
 			files = (
 				3410A0BF2257FBE7003406D7 /* GoodAsOldPhonesUITest1.swift in Sources */,
 				3410A0C82257FC27003406D7 /* firstPage.swift in Sources */,
+				349A87CD2264F41F00A90CCE /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

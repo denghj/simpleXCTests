@@ -30,20 +30,22 @@ class GoodAsOldPhonesUITest1: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        let app = XCUIApplication()
+        let fp = firstPage()
+        fp.oldPhone1.tap()
         
-        let tablesQuery = app.tables
-        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["1907 Wall Set"]/*[[".cells.staticTexts[\"1907 Wall Set\"]",".staticTexts[\"1907 Wall Set\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        fp.buttonAddtocartButton.tap()
         
-        let buttonAddtocartButton = app.buttons["button addtocart"]
-        buttonAddtocartButton.tap()
-        
-        let backButton = app.navigationBars["GoodAsOldPhones.ProductView"].buttons["Back"]
-        backButton.tap()
-        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["1984 Moto Portable"]/*[[".cells.staticTexts[\"1984 Moto Portable\"]",".staticTexts[\"1984 Moto Portable\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.swipeUp()
-        buttonAddtocartButton.tap()
-        backButton.tap()
+        fp.backButton.tap()
+        fp.oldPhone2.tap()
+        fp.buttonAddtocartButton.tap()
+        fp.backButton.tap()
+        fp.oldPhone3.tap()
+        fp.buttonAddtocartButton.tap()
+        fp.backButton.tap()
+        fp.oldPhone4.tap()
+        fp.buttonAddtocartButton.tap()
+        fp.backButton.tap()
+       
         
     }
 
